@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        footer {
+            background-color: #333;
+            color: #f1f1f1;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        footer a {
+            color: #f1f1f1;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            footer {
+                font-size: 14px;
+                padding: 15px 0;
+            }
+        }
+    </style>
 </head>
 <body>
-    <footer>ini footer</footer>
+
+    <!-- Konten halaman -->
+
+    <footer>
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+        <p>
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">Contact</a>
+        </p>
+    </footer>
+
 </body>
 </html>
